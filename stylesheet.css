@@ -267,15 +267,18 @@ body > div > div.skill > ul>li{
 }
 
 .drzava-1 img {
+    position: relative;
     width: 300px;
-    height: 400px;
+    height: 427px;
     background-size: cover;
     border-radius: 20px;
+    top: -5px;
 }
 
 .drzava-1 img:hover {
-    height: 418px;
+    height: 435px;
     transition: 1s;
+    transform: scale(1.2);
 }
 .drzava-2 img:hover {
     height: 210px;
