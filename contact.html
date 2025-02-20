@@ -129,7 +129,7 @@
 <section>
     <div class="contact-section">
         <div class="forms">
-            <h2>Contact Us</h2>
+            <h2>Контактирај ме</h2>
             <div class="form-group">
                 <input type="text" name="name" placeholder="Name">
             </div>
@@ -140,7 +140,7 @@
                 <textarea name="message" placeholder="Message"></textarea>
             </div>
             <div class="form-group">
-                <button onclick="submit()" type="submit">Send Message</button>
+                <button onclick="submit()" type="submit">Испрати пораката</button>
             </div>
             <div class="social-icons">
                 <a href="https://www.instagram.com/____gorgioski____/" target="_blank" class="instagram"></a>
@@ -162,9 +162,9 @@
     function submit(){
         var mail=document.getElementById('mail').value
         if(check(mail)){
-            alert("Uspesno e ispraten mailot, ocekuvajte odgovor naskoro :)!!")
+            alert("Успешно е испратена e-mail поракта. Очекувајте одговор наскоро :)!!")
         }else{
-            alert("Vnesovte nevalidna e-mail adresa!")
+            alert("Внесовте не валидна e-mail адреса!")
         }
     }
     function check(mail){
