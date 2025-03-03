@@ -125,8 +125,8 @@ section {
     bottom: 0;
     transform: translateX(-50%);
     transition: bottom 1s, left 1s, transform 0.3s ease-in-out;
-    width: 410px;
-    top: 90px;
+    width: 407px;
+    top: 85px;
 }
 #krug{
     width: 489px;
